@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+}
+
+body{
+font-family: "inter", sans-serif;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #ffffff;
+    padding:12px 40px;
+}
+ .nav-links{
+    display: flex;
+    gap: 20px;
+ }
+
+ .nav-links a{
+    text-decoration: none;
+    color:#555;
+    font-weight: 600;
+    font-size: 15px;
+ }
+  .nav-links a:hover{
+    color: #000;
+  }
+  .buttons{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+.login{
+    text-decoration: none;
+    background-color: #ffffff;
+    font-weight: 600px;
+}
+
+.signup{
+    text-decoration: none;
+    background-color: #7F56D9;
+    color: white;
+    padding: 10px 18px;
+    border-radius:8px ;
+    font-weight: 600;
+}
+.about h5{
+    text-align: center;
+    font-size: 16px;
+    color:#7F56D9;
+}
+.about h1{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.about p{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   margin-bottom: 15px;
+}
+.card{
+    width:100%;
+    max-width : 1440px;
+    padding: 5%;
+    background-color: #ffffff;
+    border-radius: 16px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+     text-align: left;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+h5{
+     text-align: left;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+p{
+    display:flex;
+    justify-content: center;
+    align-items: left;
+   margin-bottom: 15px;
+}
+.container{
+width: 100%;
+max-width: 1280px;
+padding: 32px;
+display: flex;
+gap: 32;
+}
+.left{
+    flex: 1 1 100%;
+    max-width: 100%;
+    background-color: #F9FAFB;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    flex: 1 1 100%;
+    max-width: 100%;
+    background-color: #F9FAFB;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
